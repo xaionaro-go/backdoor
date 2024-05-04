@@ -6,7 +6,7 @@ This is just a simple SSH server (mostly for testing/diagnostic purposes). For e
 
 ### Build for ARM64
 ```sh
-git clone github.com/xaionaro-go/backdoor
+git clone https://github.com/xaionaro-go/backdoor
 cd backdoor
 CGO_ENABLED=0 GOARCH=arm64 go build
 ```
